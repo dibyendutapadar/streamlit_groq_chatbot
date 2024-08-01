@@ -8,9 +8,6 @@ This project is designed to create an interactive and informative chatbot for th
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🎉 Introduction
 
