@@ -5,7 +5,7 @@ from groq import Groq
 
 # streamlit page configuration
 st.set_page_config(
-    page_title="Luxury Haven Hotel ChatBot",
+    page_title="Luxury Haven Hotel",
     page_icon="🏨",
     layout="centered"
 )
@@ -51,7 +51,7 @@ hotel_info = {
 }
 
 # streamlit page title
-st.title("🏨 Luxury Haven Hotel ChatBot")
+st.title("🏨 Welcome to Luxury Haven Hotel")
 
 # display chat history
 for message in st.session_state.chat_history:
