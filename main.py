@@ -17,6 +17,8 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 GROQ_API_KEY = st.secrets["groq"]["api_key"]
 os.environ["GROQ_API_KEY"] = GROQ_API_KEY
 
+client = Groq()
+
 # initialize the chat history as streamlit session state if not present already
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
