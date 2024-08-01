@@ -29,8 +29,8 @@ To get started with the Luxury Haven Hotel chatbot, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/luxury-haven-hotel-chatbot.git
-    cd luxury-haven-hotel-chatbot
+    git clone <repo>
+    cd hotel-chatbot
     ```
 
 2. **Install dependencies**:
