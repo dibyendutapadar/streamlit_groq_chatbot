@@ -47,7 +47,7 @@ hotel_info = {
         {"type": "Family Room", "description": "Additional facilities from Standard Room: Separate area with two twin beds, children's amenities."}
     ],
     "pricing": {
-        "Standard Room": {"base_price": 5000, "tax": 900, "total": 5900},
+        "Standard Room": {"base_price": 5000, "tax": 900, "total": 5900,},
         "Deluxe Room": {"base_price": 6000, "tax": 1080, "total": 7080},
         "Suite": {"base_price": 7000, "tax": 1260, "total": 8260},
         "Family Room": {"base_price": 8000, "tax": 1440, "total": 9440}
@@ -86,7 +86,7 @@ if user_prompt:
 
     # create messages list with hotel context
     messages = [
-        {"role": "system", "content": "You are a helpful hotel receptionist. your name is Alexa. You have access to hotel facilities, room types, pricing, and availability. Answer queries crisply. After the enwuiries, if user shows interest to book, ask for name, email, number of people, number of rooms before comfirming the booking"},
+        {"role": "system", "content": "You are a helpful hotel receptionist. your name is Alexa and you assist potential guests with qurie and bookings. You have access to hotel facilities, room types, pricing, and availability. Answer queries crisply. After the enwuiries, if user shows interest to book, ask for name, email, number of people, number of rooms before comfirming the booking If a customer asks for discount start from 2.5% and max 7.5%"},
         {"role": "system", "content": f"Hotel Information: {hotel_info}"}
     ]
     messages.extend(st.session_state.chat_history)
