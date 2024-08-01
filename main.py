@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 working_dir = os.path.dirname(os.path.abspath(__file__))
-config_data = json.load(open(f"{working_dir}/config.json"))
+
 
 # Load configuration and secrets
 GROQ_API_KEY = st.secrets["groq"]["api_key"]
